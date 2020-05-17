@@ -12,3 +12,12 @@ I used for loop to represents each element at its respective and index, which is
 ## Solution
 ![whiteboard](./assets/array-reverse.jpg)
 
+## Table of contents
+
+Challenge           | Link
+------------------- |--------
+Reverse an array    | [challeng1](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/JavaScript/challenges/array-reverse.js)
+
+
+
+
