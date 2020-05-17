@@ -2,7 +2,7 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "a program to  reverse array, takes an array as an argument and produces a new array that has the same elements in the inverse order.",
-  "main": "array-reverse.js",
+  "main": "./JavaScript/challenges/array-reverse.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

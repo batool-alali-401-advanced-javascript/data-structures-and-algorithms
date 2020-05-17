@@ -10,5 +10,5 @@ For the reverse an array I produced a new array an empty array to fill up later 
 I used for loop to represents each element at its respective and index, which is O(n) space complexity. 
 
 ## Solution
-![whiteboard](challenge1.jpg)
+![whiteboard](./assets/array-reverse.jpg)
 
