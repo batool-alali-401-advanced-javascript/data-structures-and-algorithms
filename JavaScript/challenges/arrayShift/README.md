@@ -10,7 +10,7 @@ For the shift an array I produced a new array an empty array to fill up later by
 I used for loop to represents each element at its respective and index, which is O(n) space complexity. 
 
 ## Solution
-![whiteboard](../assets/array-shift.jpg)
+![whiteboard](.../assets/array-shift.jpg)
 
 
 
