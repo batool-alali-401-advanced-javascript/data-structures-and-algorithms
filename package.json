@@ -4,7 +4,8 @@
   "description": "a program to  reverse array, takes an array as an argument and produces a new array that has the same elements in the inverse order.",
   "main": "./JavaScript/challenges/array-reverse.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/issues"
   },
-  "homepage": "https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms#readme"
+  "homepage": "https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
