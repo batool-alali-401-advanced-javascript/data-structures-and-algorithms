@@ -1,4 +1,4 @@
-const lL = require('./linked-List.js');
+const lL = require('../linked-list.js');
 
 describe('Node Module', () => {
   it('constructor()', () => {
