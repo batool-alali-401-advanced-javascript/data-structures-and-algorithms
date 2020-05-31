@@ -1,11 +1,11 @@
 'use strict';
 
 function reverseArray(arr){
-    let arrReverse=[];
-    for (let i=arr.length-1; i>=0; i--){
-        arrReverse.push(arr[i]);
-    }
-    return arrReverse;
+  let arrReverse=[];
+  for (let i=arr.length-1; i>=0; i--){
+    arrReverse.push(arr[i]);
+  }
+  return arrReverse;
 }
 
 console.log(reverseArray([1,2,3,4,5,6]));
