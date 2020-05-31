@@ -2,7 +2,7 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "a program to  reverse array, takes an array as an argument and produces a new array that has the same elements in the inverse order.",
-  "main": "./JavaScript/challenges/arrayBinarySearch/array-binary-search.js",
+  "main": "./Data-Structures/linkedList/linked-list.js",
   "scripts": {
     "test": "jest --coverage --verbose",
     "lint": "eslint '**/*.js'"

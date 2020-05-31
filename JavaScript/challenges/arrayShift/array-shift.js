@@ -1,16 +1,16 @@
 'use strict';
 
 function insertShiftArray(arr,value){
-    let middle=Math.ceil(arr.length/2);
-    let shifted=[];
-    shifted[middle]=value;
-    for (let i=0; i<middle; i++){
-        shifted[i]=arr[i];
-    }
-    for (let i=arr.length; i> middle; i--){
-        shifted[i]=arr[i-1];
-    }
-    return shifted;
+  let middle=Math.ceil(arr.length/2);
+  let shifted=[];
+  shifted[middle]=value;
+  for (let i=0; i<middle; i++){
+    shifted[i]=arr[i];
+  }
+  for (let i=arr.length; i> middle; i--){
+    shifted[i]=arr[i-1];
+  }
+  return shifted;
 }
 
 
