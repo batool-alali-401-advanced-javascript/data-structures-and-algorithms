@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms#readme",
   "devDependencies": {
+    "eslint": "^7.1.0",
     "jest": "^26.0.1"
   }
 }

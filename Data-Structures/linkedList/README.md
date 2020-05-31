@@ -22,5 +22,7 @@ creating two classes named node and linkedlist which has a constructor and these
 - insertBefore O(nlogn)
 
 ## Solution
+- linked list
 ![linked list](./Ll.png)
+- linked list insertion
 ![ll-insertion](./ll-insertion.png)
