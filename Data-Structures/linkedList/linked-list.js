@@ -100,6 +100,29 @@ class LinkedList {
     }
     return this;
   }
+  kthFromEnd(k){
+    let temp = this.head;
+    let count = 0; 
+    while (temp != null) 
+    { 
+      count++; 
+      temp = temp.next; 
+    } 
+    let size=count;
+    if(k < 0 || k >= size){
+      return('Exception');
+    }
+
+    let position = size - k;
+    let ctr = 1;
+    let current = this.head;
+    while(ctr < position && current != null){
+      current = current.next;
+      ctr += 1;
+    }
+
+    return current.value;
+  }
 }
   
 module.exports.Node = Node;
