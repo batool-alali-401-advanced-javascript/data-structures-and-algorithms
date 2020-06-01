@@ -12,6 +12,7 @@ creating two classes named node and linkedlist which has a constructor and these
 - a method called append(value) which adds a new node with the given value to the end of the list
 - a method called insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
 - a method called insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+- a method called kthFromEnd(k) for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
 
 ## Approach & Efficiency
 - insert O(1)
@@ -20,9 +21,12 @@ creating two classes named node and linkedlist which has a constructor and these
 - append O(n)
 - insertAfter O(nlogn)
 - insertBefore O(nlogn)
+- kthFromEnd O(nlogn)
 
 ## Solution
 - linked list
 ![linked list](./Ll.png)
 - linked list insertion
 ![ll-insertion](./ll-insertion.png)
+- k-th value
+![ll-kth-from-end](./ll-kth-from-end.jpg)
