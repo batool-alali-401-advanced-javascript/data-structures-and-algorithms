@@ -8,4 +8,4 @@ Array Binary Search | [challenge03](https://github.com/batool-alali-401-advanced
 Linked List         | [challenge05](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/README.md)
 Ll insertions       | [challenge06](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/README.md)
 k-th value          | [challenge07](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/README.md)
-
+mergeLinkedLists    | [challenge07](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/README.md)
