@@ -1,8 +1,7 @@
 # data-structures-and-algorithm
 
 # Linked List
-a program to  Create a linked list with insert method, includes and toString to insert an element, search for an element, print all elements, append an element, insertBefore a specific element and after a specific one.
-
+a program to  Create a linked list with insert method, includes and toString to insert an element, search for an element, print all elements, append an element, insertBefore a specific element and after a specific one, a method called kthFromEnd(k) for the Linked List class which takes a number. Return the node’s value that is k from the end of the linked list and a  method called mergeLists which takes two linked lists as arguments.
 ## Challenge
 creating two classes named node and linkedlist which has a constructor and these methodes:
 
@@ -13,6 +12,8 @@ creating two classes named node and linkedlist which has a constructor and these
 - a method called insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
 - a method called insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 - a method called kthFromEnd(k) for the Linked List class which takes a number, k, as a parameter. Return the node’s value that is k from the end of the linked list.
+- a method called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. 
+
 
 ## Approach & Efficiency
 - insert O(1)
@@ -23,6 +24,10 @@ creating two classes named node and linkedlist which has a constructor and these
 - insertBefore O(nlogn)
 - kthFromEnd O(nlogn)
 
+- mergedLists
+    - time O(n)  while loop from 1 to n
+    - space O(1) no extra space
+
 ## Solution
 - linked list
 ![linked list](./Ll.png)
@@ -30,3 +35,5 @@ creating two classes named node and linkedlist which has a constructor and these
 ![ll-insertion](./ll-insertion.png)
 - k-th value
 ![ll-kth-from-end](./ll-kth-from-end.jpg)
+- mergedLists
+![ll-merge](./ll-merge.jpg)

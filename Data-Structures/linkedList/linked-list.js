@@ -123,7 +123,46 @@ class LinkedList {
 
     return current.value;
   }
+  mergeLists( head1,  head2){
+
+    let current1 = head1.head;
+    let current2 = head2.head;
+
+    if(current1 == null){
+      this.head = current2;
+    }else if(current2 == null){
+      this.head = current1;
+    }else {
+      let next1 = current1.next;
+      let next2 = current2.next;
+      if (next1 == null) {
+        current1.next = current2;
+        this.head =  current1;
+      } else {
+
+        while (next1 != null && next2 != null) {
+          current1.next = current2;
+          current2.next = next1;
+          current1 = next1;
+          current2 = next2;
+          next1 = current1.next;
+          next2 = current2.next;
+        }
+
+        if (next2 == null) {
+          current1.next = current2;
+          current2.next = next1;
+        } else {
+
+          current1.next = current2;
+        }
+        this.head = head1.head;
+      }
+    }
+    return this;
+  }
 }
-  
+
+
 module.exports.Node = Node;
 module.exports.LinkedList = LinkedList;
