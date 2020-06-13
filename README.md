@@ -11,3 +11,5 @@ k-th value          | [challenge07](https://github.com/batool-alali-401-advanced
 mergeLinkedLists    | [challenge08](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/master/Data-Structures/linkedList/README.md)
 Stack and Queue     | [challenge10](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/queue-with-stacks/Data-Structures/stacksAndQueues/README.md)
 Queue with Stacks   | [challenge11](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/queue-with-stacks/Data-Structures/queueWithStacks/README.md)
+Animal Shelter      | [challenge12](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/fifo-animal-shelter/Data-Structures/fifoAnimalShelter/README.md)
+MultiBracket        | [challeng13](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/fifo-animal-shelter/JavaScript/challenges/multiBracketValidation/README.md)

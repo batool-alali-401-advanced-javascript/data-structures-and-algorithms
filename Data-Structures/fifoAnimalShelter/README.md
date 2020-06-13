@@ -11,4 +11,4 @@ Created a Node and Animal class. Used the concept of queues for FIFO.
 2. dequeue - Time complexity: 0(n) and Space Complexity: 0(1). Iterate through the list using current and previous pointers.
 
 ## Solution
-![whiteboard]('./fifo-animal-shelter.jpg')
+![whiteboard](./fifo-animal-shelter.jpg)
