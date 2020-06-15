@@ -43,6 +43,25 @@ class BinaryTree {
     _traversal(this.root);
     return results;
   }
+  breadthFirst(){
+
+    let arr = [];
+    let temp=false ;
+    if(this.root !== null){
+      temp=this.root;
+      while(temp){
+        let current = temp;
+        arr.push(current.value);
+        if(current.left !== null){
+          temp=current.left;
+        }
+        if(current.right !== null){
+          temp=current.right;
+        }
+      }
+      return arr;
+    }
+  }
 }
 
 class BST {
