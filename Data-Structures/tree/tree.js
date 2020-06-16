@@ -62,6 +62,23 @@ class BinaryTree {
       return arr;
     }
   }
+  findMaximumValue(root){
+    if(root === null){
+      return null;
+    }
+
+    let node = root.value;
+    let left = this.findMaximumValue(root.left);
+    let right = this.findMaximumValue(root.right);
+
+    if(left > node ){
+      node = left;
+    }
+    if(right > node ){
+      node = right;
+    }
+    return node;
+  }
 }
 
 class BST {

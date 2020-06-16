@@ -16,9 +16,14 @@ Create a BinaryTree class
 - add() O(logn)
 - contains() O(logn)
 - breadth-first() O(n)
+- findMaximumValue O(n)
+
 ## Solution
 -  tree
-![Whiteboard](./tree)
+![Whiteboard](./tree.jpg)
 
 - breadth-first
-![Whiteboard](./breadth-first)
+![Whiteboard](./breadth-first.jpg)
+
+- findMaximumValue
+![Whiteboard](./find-maximum-binary-tree.jpg)
