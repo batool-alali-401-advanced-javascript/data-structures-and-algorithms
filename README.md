@@ -16,3 +16,4 @@ MultiBracket        | [challenge13](https://github.com/batool-alali-401-advanced
 Trees               | [challenge15](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/tree/Data-Structures/tree/README.md)
 Fizz-Bizz           | [challenge16](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/fizzbuzz-tree/Data-Structures/fizzBuzzTree/README.md)
 breadth-first       | [challenge17](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/breadth-first/Data-Structures/tree/README.md)
+find-Max-value      | [challenge18](https://github.com/batool-alali-401-advanced-javascript/data-structures-and-algorithms/blob/find-maximum-binary-tree/Data-Structures/tree/README.md)
