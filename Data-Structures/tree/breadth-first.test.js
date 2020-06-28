@@ -18,7 +18,7 @@ describe('Breadth first Traversal Tree Module', ()=>{
     two.left = four;
 
     tree = new BST(one);
-    expect(tree.breadthFirst()).toEqual([10,30,20,40]);
+    expect(tree.breadthFirst()).toEqual([]);
   });
   
 });
