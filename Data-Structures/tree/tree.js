@@ -49,7 +49,7 @@ class BinaryTree {
     let temp=false ;
     if(this.root !== null){
       temp=this.root;
-      while(temp){
+      while(!temp){
         let current = temp;
         arr.push(current.value);
         if(current.left !== null){
